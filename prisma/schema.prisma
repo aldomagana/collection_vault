@@ -17,6 +17,7 @@ model Item {
   name        String
   description String?
   category    String?
+  imageUrl    String?
   value       Float?
   userId      String
   createdAt   DateTime @default(now())
